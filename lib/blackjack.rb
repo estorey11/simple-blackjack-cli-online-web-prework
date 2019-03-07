@@ -28,8 +28,10 @@ def initial_round
   total
 end
 
-def hit?
-  # code hit? here
+def hit?(tot)
+  prompt_user
+  inp=get_user_input
+  if inp
 end
 
 def invalid_command
