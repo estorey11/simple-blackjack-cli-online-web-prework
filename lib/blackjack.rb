@@ -31,7 +31,10 @@ end
 def hit?(tot)
   prompt_user
   inp=get_user_input
-  if inp
+  if inp=="h"
+    tot+=deal_card
+    display_card_total(tot)
+  elsif 
 end
 
 def invalid_command
