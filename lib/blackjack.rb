@@ -53,6 +53,8 @@ def runner
   welcome
   tot==initial_round
   until tot>21
-    
+    tot=hit?(tot)
+  end
+  end_game
 end
     
