@@ -37,6 +37,7 @@ def hit?(tot)
     tot
   else
     invalid_command
+    tot
   end
 end
 
