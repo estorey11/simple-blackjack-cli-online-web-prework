@@ -33,8 +33,11 @@ def hit?(tot)
   inp=get_user_input
   if inp=="h"
     tot+=deal_card
-    display_card_total(tot)
   elsif inp=="s"
+    tot
+  else
+    invalid_command
+  end
 end
 
 def invalid_command
