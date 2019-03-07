@@ -34,7 +34,7 @@ def hit?(tot)
   if inp=="h"
     tot+=deal_card
     display_card_total(tot)
-  elsif 
+  elsif inp=="s"
 end
 
 def invalid_command
